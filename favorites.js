@@ -19,7 +19,8 @@ const favShows = ['Rick and Morty', "It's Always Sunny in Philadelphia", "Avatar
 
 let randomNum = Math.ceil(Math.random() * 10);
     
-console.log('One of my favorite meaningful quotes: ' + favQuotes[randomNum -1])
 console.log('One of my passions is: ' + passions[randomNum -1])
 console.log('One of my favorite TV shows is: ' + favShows[randomNum -1])
+console.log('One of my favorite meaningful quotes: ' + favQuotes[randomNum -1])
+
 
